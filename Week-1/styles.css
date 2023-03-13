@@ -1,0 +1,84 @@
+  .upperbox{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .leftbox {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    margin: 0;
+    padding: 20px;
+    width: 1vw;
+    height: 72.4vh;
+    background-color: rgba(220, 240, 244, 0.468);
+  }
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+}
+.imgbox{
+    display: flex;
+    background-color: rgb(69,69, 69);
+}
+.imag{
+    padding: 30px;
+}
+.img-content{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.img-bottom-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.content-top{
+    margin-bottom: 150px;
+}
+.list-container{
+    margin-left: 10px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    border-color: black;
+}
+.list p{
+  width:200px;
+}
+.list:nth-child(2n){
+   background-color:#F0F0F0;
+}
+.lowerbox{
+    display: flex;
+    background-color: #6470f1;
+    height :150px;
+}
+.lower-img{
+    display: flex;
+    padding: 10px;
+}
+.lower-control{
+    padding:10px;
+    color: azure;
+    flex-grow:2 ;
+}
+.lower-control-icons{
+    display: flex;
+    margin-left: 550px;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.board{
+    display: flex;
+    color: blue;
+    margin-right: 3%;
+   border: 2px solid black;
+}
