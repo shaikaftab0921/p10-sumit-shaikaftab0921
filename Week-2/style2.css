@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    height: 200px;
+    width: 200px;
+    color: black;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 150px;
+    left: 250px; 
+}
+
+span{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.item{
+  height: 100px;
+  width: 100px;
+  transition: transform 3s ease-in-out;
+  
+}
+.one{
+    transform-origin: left top;
+  background-color: red;
+}
+.two{
+    transform-origin: right top;
+    background-color: yellow;
+}
+.three{
+    transform-origin: left bottom;
+    background-color: blue;
+}
+.four{
+    transform-origin: right bottom;
+    background-color: green;
+}
+.container:hover .one{
+    transform: rotate(90deg);
+}
+.container:hover .two{
+    transform: rotate(-90deg);
+}
+.container:hover .three{
+    transform: rotate(-90deg);
+}
+.container:hover .four{
+    transform: rotate(90deg);
+}
